@@ -25,6 +25,7 @@ SECRET_KEY = '0aw*gis!$3-sqts_9m4y=jgcsi&d25kwv1w%_*r%tq1&e4e2nw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
 ALLOWED_HOSTS = ['127.0.0.1','pythonanywhere.com']
 
 
