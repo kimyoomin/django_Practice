@@ -1,0 +1,26 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Doing Game!</title>
+
+</head>
+
+<body>
+<div>
+ <h1 align="center">UP DOWN GAME</h1>
+</div>
+
+ <div>
+<form align="left" action="playing_game" method="GET">
+{% csrf_token %}
+    <input type="text" name="number_x" style="width: 500px; height:25px" value=""/>
+    <a href="../playing_game">
+     <button type="submit" style="width: 80px; height:30px" > guess </button>
+    </a>
+</form>
+
+    
+   </div>
+</body>
+<html>
